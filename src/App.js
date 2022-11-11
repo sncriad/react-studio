@@ -39,7 +39,7 @@ function App() {
 
       <div>
         <h2>Cart</h2>
-        <p> PRICE:{tp} </p>
+        <p> PRICE:{tp.toFixed(2)} </p>
         {bakeryData.map((item, index) => (
           <div>  
           {item.name + " " + tracker[index]}
